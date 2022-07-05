@@ -1392,7 +1392,7 @@ class Leaderboard(commands.Cog):
                 
                 
                 try:
-                    index = bedwars_star*float(fkdr)
+                    index = bedwars_star*2*float(fkdr)
                 except:
                     index = 0
                 FirstIndexOption.append
